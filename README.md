@@ -26,6 +26,6 @@ In order to explore this sample test data repository in vREST, you can follow th
 * You can clone this repository and keep it anywhere you want in your system. 
 * Once you have done that, you just have to open this repository in your vREST Workspace.
 
-![](../assets/6.png)
+![](assets/6.png)
 
 * Now, you can explore this Project on your own.
