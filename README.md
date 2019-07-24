@@ -29,3 +29,11 @@ In order to explore this sample test data repository in vREST, you can follow th
 ![](assets/6.png)
 
 * Now, you can explore this Project on your own.
+
+## Report Issues
+
+To report any bugs or issues, you can simply do it in the [Issues Section](/issues).
+
+## Join our Discord Server
+
+To interact (discuss/chat) with our team and others in the community, you can join [vREST Discord Server](https://discord.gg/XM97E6H).
