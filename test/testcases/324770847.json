@@ -1,0 +1,61 @@
+{
+  "details": {
+    "summary": "Validate whether Update Contact API should return error when contact's aboutMe length is greater than the permissible aboutMe length limit",
+    "description": "Example of negative test case. As aboutMe field length cannot exceeds 500, and we are setting aboutMe having length greater than 500 and checking whether the system is returning the proper error or not.",
+    "waitForseconds": null,
+    "runnable": true,
+    "editable": true,
+    "tags": []
+  },
+  "validation": {
+    "assertions": [
+      {
+        "source": "statusCode",
+        "operator": "equalToNumber",
+        "expectedValue": "400"
+      },
+      {
+        "source": "jsonBody",
+        "property": "errors.aboutMe",
+        "operator": "equals",
+        "expectedValue": "field length cannot be greater than 500"
+      }
+    ],
+    "expectedBody": {
+      "content": {},
+      "type": "json"
+    },
+    "expectedSchema": {
+      "content": {},
+      "type": "json"
+    }
+  },
+  "request": {
+    "url": "{{contactsAppBaseURLV2}}/contacts/{{contactId}}",
+    "method": "PUT",
+    "headers": {
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Content-Type": "application/json",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "queryParams": [],
+    "body": {
+      "content": {
+        "_id": "{{contactId}}",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "designation": "Chief Technical Officer",
+        "organization": "Example.com",
+        "country": "India",
+        "aboutMe": "Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit. Sample aboutMe field whose length is greater than the limit.",
+        "twitterId": "fake.john.doe",
+        "facebookId": "fake.john.doe",
+        "githubId": "fake.john.doe",
+        "createdOn": "2014-05-03T06:28:45.479Z"
+      },
+      "type": "json",
+      "formParams": []
+    }
+  },
+  "variables": []
+}

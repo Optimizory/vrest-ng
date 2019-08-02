@@ -1,0 +1,107 @@
+{
+  "details": {
+    "summary": "Validate whether Add Contact API works with all valid details",
+    "description": "This test case validates that Add Contact API works with all valid details.\n\nWe have extracted the value of _id from actual response into a variable \"contactId\" using Variable Extractor functionality. And this \"contactId\" variable is used in subsequent requests. \n\nIn the same manner, you can also chain multiple requests.",
+    "waitForseconds": null,
+    "runnable": true,
+    "editable": true,
+    "tags": []
+  },
+  "validation": {
+    "assertions": [
+      {
+        "source": "statusCode",
+        "operator": "equalToNumber",
+        "expectedValue": "200"
+      },
+      {
+        "source": "jsonBody",
+        "property": "name",
+        "operator": "equals",
+        "expectedValue": "John Doe"
+      },
+      {
+        "source": "jsonBody",
+        "property": "email",
+        "operator": "equals",
+        "expectedValue": "john.doe@example.com"
+      },
+      {
+        "source": "jsonBody",
+        "property": "designation",
+        "operator": "equals",
+        "expectedValue": "Chief Technical Officer"
+      },
+      {
+        "source": "jsonBody",
+        "property": "organization",
+        "operator": "equals",
+        "expectedValue": "Example.com"
+      },
+      {
+        "source": "jsonBody",
+        "property": "country",
+        "operator": "equals",
+        "expectedValue": "India"
+      },
+      {
+        "source": "jsonBody",
+        "property": "twitterId",
+        "operator": "equals",
+        "expectedValue": "fake.john.doe"
+      },
+      {
+        "source": "jsonBody",
+        "property": "facebookId",
+        "operator": "equals",
+        "expectedValue": "fake.john.doe"
+      },
+      {
+        "source": "jsonBody",
+        "property": "githubId",
+        "operator": "equals",
+        "expectedValue": "fake.john.doe"
+      }
+    ],
+    "expectedBody": {
+      "content": {},
+      "type": "json"
+    },
+    "expectedSchema": {
+      "content": {},
+      "type": "json"
+    }
+  },
+  "request": {
+    "url": "{{contactsAppBaseURLV2}}/contacts",
+    "method": "POST",
+    "headers": {
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Content-Type": "application/json",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "queryParams": [],
+    "body": {
+      "content": {
+        "_id": null,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "designation": "Chief Technical Officer",
+        "organization": "Example.com",
+        "country": "India",
+        "aboutMe": "My name can be used as a placeholder name and I don't have any identity.",
+        "twitterId": "fake.john.doe",
+        "facebookId": "fake.john.doe",
+        "githubId": "fake.john.doe"
+      },
+      "type": "json",
+      "formParams": []
+    }
+  },
+  "variables": [
+    {
+      "name": "contactId",
+      "path": "_id"
+    }
+  ]
+}

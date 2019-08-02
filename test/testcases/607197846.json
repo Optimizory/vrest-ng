@@ -1,0 +1,61 @@
+{
+  "details": {
+    "summary": "Validate whether Update contact API should return error when contact's organization length is greater than the permissible organization length limit",
+    "description": "Example of negative test case. As organization name field length cannot exceeds 35, and we are setting organization name having length greater than 35 and checking whether the system is returning the proper error or not.",
+    "waitForseconds": null,
+    "runnable": true,
+    "editable": true,
+    "tags": []
+  },
+  "validation": {
+    "assertions": [
+      {
+        "source": "statusCode",
+        "operator": "equalToNumber",
+        "expectedValue": "400"
+      },
+      {
+        "source": "jsonBody",
+        "property": "errors.organization",
+        "operator": "equals",
+        "expectedValue": "field length cannot be greater than 35"
+      }
+    ],
+    "expectedBody": {
+      "content": {},
+      "type": "json"
+    },
+    "expectedSchema": {
+      "content": {},
+      "type": "json"
+    }
+  },
+  "request": {
+    "url": "{{contactsAppBaseURLV2}}/contacts/{{contactId}}",
+    "method": "PUT",
+    "headers": {
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Content-Type": "application/json",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "queryParams": [],
+    "body": {
+      "content": {
+        "_id": "{{contactId}}",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "designation": "Chief Technical Officer",
+        "organization": "Sample organization whose length is greater than the limit",
+        "country": "India",
+        "aboutMe": "My name can be used as a placeholder name and I don't have any identity.",
+        "twitterId": "fake.john.doe",
+        "facebookId": "fake.john.doe",
+        "githubId": "fake.john.doe",
+        "createdOn": "2014-05-03T06:28:45.479Z"
+      },
+      "type": "json",
+      "formParams": []
+    }
+  },
+  "variables": []
+}
