@@ -1,4 +1,4 @@
-# vREST Desktop v0.0.111
+# vREST Desktop v0.0.115
 
 This is a repository to maintain releases of vREST Desktop Application.
 
