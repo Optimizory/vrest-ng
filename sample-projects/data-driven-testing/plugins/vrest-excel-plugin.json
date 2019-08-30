@@ -1,0 +1,10 @@
+{
+  "convertor": {
+    "flatKeys": false,
+    "trim": false,
+    "ignoreEmpty": false,
+    "delimiter": ",",
+    "output": "json"
+  },
+  "outputVarName": "data"
+}

@@ -1,0 +1,77 @@
+{
+  "details": {
+    "summary": "Validate Create Contact API",
+    "waitForseconds": null,
+    "runnable": true,
+    "editable": true,
+    "tags": [
+      "test-by-csv",
+      "test-by-mock"
+    ],
+    "description": ""
+  },
+  "validation": {
+    "assertions": [
+      {
+        "source": "statusCode",
+        "operator": "equalToNumber",
+        "expectedValue": "200",
+        "id": "0"
+      },
+      {
+        "source": "textBody",
+        "property": null,
+        "operator": "Default Validator",
+        "expectedValue": ""
+      }
+    ],
+    "expectedBody": {
+      "content": {
+        "_id": "{{*}}",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "designation": "Chief Technical Officer",
+        "organization": "Example.com",
+        "country": "India",
+        "aboutMe": "My name can be used as a placeholder name and I don't have any identity.",
+        "twitterId": "fake.john.doe",
+        "facebookId": "fake.john.doe",
+        "githubId": "fake.john.doe",
+        "createdOn": "{{*}}"
+      },
+      "type": "json"
+    },
+    "expectedSchema": {
+      "content": {},
+      "type": "json"
+    }
+  },
+  "request": {
+    "url": "{{contactsAppBaseURL}}/contacts",
+    "method": "POST",
+    "headers": {},
+    "queryParams": [],
+    "body": {
+      "content": {
+        "_id": null,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "designation": "Chief Technical Officer",
+        "organization": "Example.com",
+        "country": "India",
+        "aboutMe": "My name can be used as a placeholder name and I don't have any identity.",
+        "twitterId": "fake.john.doe",
+        "facebookId": "fake.john.doe",
+        "githubId": "fake.john.doe"
+      },
+      "type": "json",
+      "formParams": []
+    }
+  },
+  "variables": [
+    {
+      "name": "contactId",
+      "path": "_id"
+    }
+  ]
+}

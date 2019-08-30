@@ -1,0 +1,85 @@
+{
+  "details": {
+    "summary": "Validate Update Contact API",
+    "loopSource": "{{data}}",
+    "waitForseconds": null,
+    "runnable": true,
+    "editable": true,
+    "tags": [
+      "test-by-csv"
+    ]
+  },
+  "validation": {
+    "assertions": [
+      {
+        "source": "statusCode",
+        "operator": "equalToNumber",
+        "expectedValue": "{{data.$.statusCode}}",
+        "id": "0"
+      },
+      {
+        "source": "textBody",
+        "operator": "Default Validator",
+        "expectedValue": "",
+        "id": "1"
+      },
+      {
+        "source": "textBody",
+        "property": null,
+        "operator": "Default Schema Validator",
+        "expectedValue": ""
+      }
+    ],
+    "expectedBody": {
+      "content": "{{data.$.expectedBody}}",
+      "type": "json"
+    },
+    "expectedSchema": {
+      "content": {
+        "$ref": "#/definitions/{{data.$.schemaName}}"
+      },
+      "type": "json"
+    }
+  },
+  "request": {
+    "url": "{{contactsAppBaseURL}}/contacts/{{contactId}}",
+    "method": "PUT",
+    "headers": {
+      "header1": "value1",
+      "header2": "value2"
+    },
+    "queryParams": [],
+    "body": {
+      "content": "",
+      "type": "form-urlencoded",
+      "formParams": [
+        {
+          "name": "name",
+          "value": "{{data.$.name}}"
+        },
+        {
+          "name": "email",
+          "value": "{{data.$.email}}"
+        },
+        {
+          "name": "designation",
+          "value": "{{data.$.designation}}"
+        },
+        {
+          "name": "organization",
+          "value": "{{data.$.organization}}"
+        },
+        {
+          "name": "country",
+          "value": "{{data.$.country}}"
+        }
+      ]
+    }
+  },
+  "variables": [],
+  "extensions": {
+    "vrest-excel-plugin": {
+      "testDataFilePath": "{{$projectDir}}/data/sample.csv"
+    }
+  }
+}

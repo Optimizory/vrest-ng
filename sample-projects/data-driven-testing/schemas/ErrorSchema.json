@@ -1,0 +1,14 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/error-schema.json",
+  "type": "object",
+  "title": "The Error Schema",
+  "properties": {
+    "errors": {
+      "$id": "#/properties/errors",
+      "type": "object",
+      "title": "Errors Object"
+    }
+  }
+}

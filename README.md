@@ -1,4 +1,4 @@
-# vREST Desktop v0.0.115
+# vREST Desktop v0.5.1
 
 This is a repository to maintain releases of vREST Desktop Application.
 
@@ -7,26 +7,37 @@ This is a repository to maintain releases of vREST Desktop Application.
 vREST Community Edition has the following features and functionalities:
 
 - Swagger/Postman Import
-- Response Validation
+- Response Validation (Scriptless Assertions)
 - Test Environments
 - Authentication / Authorization Support
 - Scriptless Assertions
 - Chained Request Execution
 - Community Support
-- CI/CD Support (Coming soon)
-- Command Line Test Execution (Comming soon)
+- CI/CD Support
+- Command Line Test Execution
+- [Pro] Advanced Response Validation
+- [Pro] Read Test Data from Excel Sheet
+- [Pro] Data Driven Testing ( [Learn More](/sample-projects/data-driven-testing) )
+- [Pro] Test Setup using shell commands/scripts
+- [Pro] Priority Support
+- [Pro] Advanced Failure Debugging
+
 
 In order to explore this sample test data repository in vREST, you can follow the steps mentioned below:
 
-## Step 1 - Download & Install vREST Desktop
+## Step 1 - Download vREST Desktop
 
 - First of all, you need to have vREST Application installed on your Desktop.
 - Download it from [HERE](https://github.com/Optimizory/vrest-desktop/releases) (for your OS).
 
-## Step 2 - Clone this repository & Open this as a Project in vREST
+## Step 2 - Install vREST Desktop
+
+- For installation, please visit our document on [os specific guide](https://desktop.vrest.io/docs/guide/getting-started/installation.html).
+
+## Step 3 - Clone this repository & Open any of the sample projects in vREST Desktop Application
 
 - You can clone this repository and keep it anywhere you want in your system.
-- Once you have done that, you just have to open this repository in your vREST Workspace.
+- Once you have done that, you just have to open the sample projects in your vREST Workspace.
 
 ![](assets/6.png)
 
