@@ -2,9 +2,9 @@
 
 This is a repository to maintain releases of vREST Desktop Application.
 
-## vREST Desktop Community Edition
+## vREST Desktop App
 
-vREST Community Edition has the following features and functionalities:
+vREST Desktop has the following features and functionalities:
 
 - Swagger/Postman Import
 - Response Validation (Scriptless Assertions)
