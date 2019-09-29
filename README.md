@@ -1,4 +1,4 @@
-# vREST Desktop v0.6.1
+# vREST Desktop v0.7.1
 
 This is a repository to maintain releases of vREST Desktop Application.
 
@@ -15,6 +15,7 @@ vREST Desktop has the following features and functionalities:
 - Community Support
 - CI/CD Support
 - Command Line Test Execution
+- Filter test cases via tags, request method etc.
 - [Pro] Advanced Response Validation
 - [Pro] Read Test Data from Excel Sheet
 - [Pro] Data Driven Testing ( [Learn More](/sample-projects/data-driven-testing) )
