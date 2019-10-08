@@ -13,7 +13,7 @@ Let us see how you can do that,
 
 ## Step 1 - Download & Install vREST NG
 * First of all, you need to have vREST NG Application installed on your system.
-* Download it from [HERE](/releases) (for your OS).
+* Download it from [HERE](https://github.com/Optimizory/vrest-ng/releases) (for your OS).
 
 ## Step 2 - Clone this repository & Open this as a Project in vREST NG
 * You can clone this repository and keep it anywhere you want in your system. 
