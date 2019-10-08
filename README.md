@@ -1,10 +1,10 @@
-# vREST Desktop v0.7.1
+# vREST NG v0.8.1
 
-This is a repository to maintain releases of vREST Desktop Application.
+This is a repository to maintain releases of vREST NG Application.
 
-## vREST Desktop App
+## vREST NG App
 
-vREST Desktop has the following features and functionalities:
+vREST NG has the following features and functionalities:
 
 - Swagger/Postman Import
 - Response Validation (Scriptless Assertions)
@@ -26,16 +26,16 @@ vREST Desktop has the following features and functionalities:
 
 In order to explore this sample test data repository in vREST, you can follow the steps mentioned below:
 
-## Step 1 - Download vREST Desktop
+## Step 1 - Download vREST NG
 
-- First of all, you need to have vREST Application installed on your Desktop.
-- Download it from [HERE](https://github.com/Optimizory/vrest-desktop/releases) (for your OS).
+- First of all, you need to have vREST Application installed on your system.
+- Download it from [HERE](https://github.com/Optimizory/vrest-ng/releases) (for your OS).
 
-## Step 2 - Install vREST Desktop
+## Step 2 - Install vREST NG
 
-- For installation, please visit our document on [os specific guide](https://desktop.vrest.io/docs/guide/getting-started/installation.html).
+- For installation, please visit our document on [os specific guide](https://ng.vrest.io/docs/guide/getting-started/installation.html).
 
-## Step 3 - Clone this repository & Open any of the sample projects in vREST Desktop Application
+## Step 3 - Clone this repository & Open any of the sample projects in vREST NG Application
 
 - You can clone this repository and keep it anywhere you want in your system.
 - Once you have done that, you just have to open the sample projects in your vREST Workspace.
@@ -46,7 +46,7 @@ In order to explore this sample test data repository in vREST, you can follow th
 
 ## Report Issues
 
-To report any bugs or issues, you can simply do it in the [Issues Section](https://github.com/Optimizory/vrest-desktop/issues).
+To report any bugs or issues, you can simply do it in the [Issues Section](https://github.com/Optimizory/vrest-ng/issues).
 
 ## Join our Discord Server
 
