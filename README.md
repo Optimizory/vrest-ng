@@ -33,7 +33,7 @@ In order to explore this sample test data repository in vREST, you can follow th
 
 ## Step 2 - Install vREST NG
 
-- For installation, please visit our document on [os specific guide](https://ng.vrest.io/docs/guide/getting-started/installation.html).
+- For installation, please visit our document on [OS specific guide](https://ng.vrest.io/docs/app/installation.html).
 
 ## Step 3 - Clone this repository & Open any of the sample projects in vREST NG Application
 
@@ -50,4 +50,4 @@ To report any bugs or issues, you can simply do it in the [Issues Section](https
 
 ## Join our Discord Server
 
-To interact (discuss/chat) with our team and others in the community, you can join [vREST Discord Server](https://discord.gg/XM97E6H).
+To interact (discuss/chat) with our team and others in the community, you can join [vREST Discord Server](https://discord.gg/NtRa7kw).
