@@ -3,7 +3,7 @@
 *(This is a sample test data repository for performing Data Driven Testing using csv files and vREST NG.)*
 # Data Driven Testing (using vREST NG) 
 
-![](../assets/main.png)
+![](../../assets/main.png)
 
 vREST NG provides you the ability to perform one of the most productive approach in the world of testing. Data Driven Testing is an approach, which can save you a lot of time, effort, and other resources.
 
@@ -19,23 +19,23 @@ Let us see how you can do that,
 * You can clone this repository and keep it anywhere you want in your system. 
 * Once you have done that, you just have to open this repository in your vREST NG Workspace.
 
-![](../assets/6.png)
+![](../../assets/6.png)
 
 * Now, you can explore this Project on your own.
 
 ## Step 3 - Integrate Sample Data File (.csv) in vREST NG 
 * Open/Edit Sample Test Data if needed.
 
-![](../assets/excel-sheet.png)
+![](../../assets/excel-sheet.png)
 
 * Integrate with vREST NG for Live Editing.
 
-![](../assets/98.png)
+![](../../assets/98.png)
 
 * Now you can make changes and simply save the csv. The changes will get automatically reflected in vREST NG without any refresh or upload. 
 
 ## Step 4 - Run Test Cases
-* Now you can ![](../assets/10.png) the test cases.
+* Now you can ![](../../assets/10.png) the test cases.
 
 ## Benefits of Data Driven Testing
 

@@ -15,13 +15,16 @@ vREST NG has the following features and functionalities:
 - Community Support
 - CI/CD Support
 - Command Line Test Execution
-- Filter test cases via tags, request method etc.
+- Filter test cases via tags, request method, execution status etc.
 - [Pro] Advanced Response Validation
 - [Pro] Read Test Data from Excel Sheet
 - [Pro] Data Driven Testing ( [Learn More](/sample-projects/data-driven-testing) )
 - [Pro] Test Setup using shell commands/scripts
+- [Pro] Response Processor
 - [Pro] Priority Support
 - [Pro] Advanced Failure Debugging
+- [Enterprise] Record Test case execution history vREST NG Servers
+- [Enterprise] vREST NG Dashboard Service, shows various analytics
 
 
 In order to explore this sample test data repository in vREST, you can follow the steps mentioned below:
