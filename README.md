@@ -1,4 +1,4 @@
-# vREST NG v0.9.1
+# vREST NG v1.0.0
 
 This is a repository to maintain releases of vREST NG Application.
 
@@ -6,7 +6,7 @@ This is a repository to maintain releases of vREST NG Application.
 
 vREST NG has the following features and functionalities:
 
-- Swagger/Postman Import
+- Swagger Import / Postman Import
 - Response Validation (Scriptless Assertions)
 - Test Environments
 - Authentication / Authorization Support
@@ -16,6 +16,7 @@ vREST NG has the following features and functionalities:
 - CI/CD Support
 - Command Line Test Execution
 - Filter test cases via tags, request method, execution status etc.
+- Record and replay your test cases ( [Learn More](https://ng.vrest.io/docs/app/tc-recording/) )
 - [Pro] Advanced Response Validation
 - [Pro] Read Test Data from Excel Sheet
 - [Pro] Data Driven Testing ( [Learn More](/sample-projects/data-driven-testing) )
