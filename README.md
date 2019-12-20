@@ -1,4 +1,4 @@
-# vREST NG v1.0.0
+# vREST NG Application
 
 This is a repository to maintain releases of vREST NG Application.
 
