@@ -1,4 +1,4 @@
-# vREST NG Application v1.0.1
+# vREST NG Application v1.1.0
 
 This is a repository to maintain releases of vREST NG Application.
 
@@ -6,7 +6,7 @@ This is a repository to maintain releases of vREST NG Application.
 
 vREST NG has the following features and functionalities:
 
-- Swagger Import / Postman Import
+- Swagger and OpenAPI 3 Import / Postman Import
 - Response Validation (Scriptless Assertions)
 - Test Environments
 - Authentication / Authorization Support
