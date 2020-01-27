@@ -1,4 +1,4 @@
-# vREST NG Application v1.1.0
+# vREST NG Application v1.2.0
 
 This is a repository to maintain releases of vREST NG Application.
 
@@ -50,7 +50,7 @@ In order to explore this sample test data repository in vREST, you can follow th
 
 ## Report Issues
 
-To report any bugs or issues, you can simply do it in the [Issues Section](https://github.com/Optimizory/vrest-ng/issues).
+To report any bugs or issues, you can simply log an issue in the [JIRA Service Desk](https://optimizory.atlassian.net/servicedesk/customer/portal/2).
 
 ## Join our Discord Server
 
