@@ -1,4 +1,4 @@
-# vREST NG Application v1.2.4
+# vREST NG Application v1.3.0
 
 This is a repository to maintain releases of vREST NG Application.
 
@@ -25,6 +25,7 @@ vREST NG has the following features and functionalities:
 - [Pro] Response Processor
 - [Pro] Priority Support
 - [Pro] Advanced Failure Debugging
+- [Pro] Bulk Operations and Search and replace operation to quickly update muliple records.
 - [Enterprise] Record Test case execution history vREST NG Servers
 - [Enterprise] vREST NG Dashboard Service, shows various analytics
 
