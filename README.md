@@ -1,4 +1,4 @@
-# vREST NG Application v1.4.0
+# vREST NG Application v1.5.0
 
 This is a repository to maintain releases of vREST NG Application.
 
@@ -7,7 +7,7 @@ This is a repository to maintain releases of vREST NG Application.
 vREST NG has the following features and functionalities:
 
 - Swagger and OpenAPI 3 Import / Postman Import
-- Response Validation (Scriptless Assertions)
+- Powerful Response Validation (Scriptless Assertions)
 - Test Environments
 - Authentication / Authorization Support
 - Scriptless Assertions
@@ -20,6 +20,7 @@ vREST NG has the following features and functionalities:
 - Use npm packages in your API Tests ( [Learn More](https://ng.vrest.io/docs/app/utility-methods.html#importing-npm-packages-in-utility-methods))
 - Advanced Response Validation
 - [Pro] Diff Report
+- [Pro] Easier Microservices Testing using Local Hooks ( [Learn More](https://ng.vrest.io/docs/app/hooks/types-of-hook.html) )
 - [Pro] Templates Functionality to improve reusability and reduce test maintenance effort. ( [Learn More](https://ng.vrest.io/docs/app/templates/) )
 - [Pro] Read Test Data from Excel Sheet
 - [Pro] Data Driven Testing ( [Learn More](/sample-projects/data-driven-testing) )
