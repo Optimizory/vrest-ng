@@ -1,4 +1,4 @@
-# vREST NG Application v1.6.0
+# vREST NG Application v1.7.0
 
 This is a repository to maintain releases of vREST NG Application.
 
@@ -8,6 +8,7 @@ vREST NG has the following features and functionalities:
 
 - Swagger and OpenAPI 3 Import / Postman Import
 - Powerful Response Validation (Scriptless Assertions)
+- Database Validation
 - Test Environments
 - Authentication / Authorization Support
 - Scriptless Assertions
@@ -23,17 +24,17 @@ vREST NG has the following features and functionalities:
 - [Pro] Easier Microservices Testing using Local Hooks ( [Learn More](https://ng.vrest.io/docs/app/hooks/types-of-hook.html) )
 - [Pro] Templates Functionality to improve reusability and reduce test maintenance effort. ( [Learn More](https://ng.vrest.io/docs/app/templates/) )
 - [Pro] Read Test Data from Excel Sheet
-- [Pro] Data Driven Testing ( [Learn More](/sample-projects/data-driven-testing) )
+- [Pro] Data Driven Testing 
 - [Pro] Test Setup using shell commands/scripts
 - [Pro] Response Processor
 - [Pro] Priority Support
 - [Pro] Advanced Failure Debugging
 - [Pro] Bulk Operations and Search and replace operation to quickly update muliple records.
-- [Enterprise] Record Test case execution history vREST NG Servers
-- [Enterprise] vREST NG Dashboard Service, shows various analytics
+- [Dashboard Service] Record Test case execution history vREST NG Servers
+- [Dashboard Service] vREST NG Dashboard Service, shows various analytics
 
 
-In order to explore this sample test data repository in vREST, you can follow the steps mentioned below:
+In order to explore vREST NG, you can follow the steps mentioned below:
 
 ## Step 1 - Download vREST NG
 
@@ -44,14 +45,11 @@ In order to explore this sample test data repository in vREST, you can follow th
 
 - For installation, please visit our document on [OS specific guide](https://ng.vrest.io/docs/app/installation.html).
 
-## Step 3 - Clone this repository & Open any of the sample projects in vREST NG Application
+## Step 3 - Clone `examples-vrest-ng` repository & Open any of the sample projects in vREST NG Application
 
-- You can clone this repository and keep it anywhere you want in your system.
-- Once you have done that, you just have to open the sample projects in your vREST Workspace.
-
-![](assets/6.png)
-
-- Now, you can explore this Project on your own.
+- You can clone our repository `examples-vrest-ng` and which provides you a sample test application,
+- and also the sample vREST NG projects.
+- For more information, visit repository [examples-vrest-ng](https://github.com/Optimizory/examples-vrest-ng)
 
 ## Report Issues
 
