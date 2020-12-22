@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Checking the list of contacts to validate whether the new record is in the list or not",
-    "description": "Validating whether new record which we just inserted is returning via the List Contact API.",
-    "waitForseconds": null
+    "description": "Validating whether new record which we just inserted is returning via the List Contact API."
   },
   "validation": {
     "assertions": [

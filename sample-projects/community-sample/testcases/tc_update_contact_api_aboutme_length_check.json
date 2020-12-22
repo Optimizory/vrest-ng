@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Validate whether Update Contact API should return error when contact's aboutMe length is greater than the permissible aboutMe length limit",
-    "description": "Example of negative test case. As aboutMe field length cannot exceeds 500, and we are setting aboutMe having length greater than 500 and checking whether the system is returning the proper error or not.",
-    "waitForseconds": null
+    "description": "Example of negative test case. As aboutMe field length cannot exceeds 500, and we are setting aboutMe having length greater than 500 and checking whether the system is returning the proper error or not."
   },
   "validation": {
     "assertions": [

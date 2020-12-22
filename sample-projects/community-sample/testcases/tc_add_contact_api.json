@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Validate whether Add Contact API works with all valid details",
-    "description": "This test case validates that Add Contact API works with all valid details.\n\nWe have extracted the value of _id from actual response into a variable \"contactId\" using Variable Extractor functionality. And this \"contactId\" variable is used in subsequent requests. \n\nIn the same manner, you can also chain multiple requests.",
-    "waitForseconds": null
+    "description": "This test case validates that Add Contact API works with all valid details.\n\nWe have extracted the value of _id from actual response into a variable \"contactId\" using Variable Extractor functionality. And this \"contactId\" variable is used in subsequent requests. \n\nIn the same manner, you can also chain multiple requests."
   },
   "validation": {
     "assertions": [

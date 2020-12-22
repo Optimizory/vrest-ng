@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Validate whether Update Contact API should return error when contact's name length is greater than the permissible name length limit",
-    "description": "Example of negative test case. As name field is required, and we are setting blank for the name field and checking whether the system is returning the proper error or not.",
-    "waitForseconds": null
+    "description": "Example of negative test case. As name field is required, and we are setting blank for the name field and checking whether the system is returning the proper error or not."
   },
   "validation": {
     "assertions": [

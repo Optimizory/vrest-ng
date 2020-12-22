@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Validate whether Update Contact API should return error when name field is blank",
-    "description": "Example of negative test case. As name field is required, and we are setting blank for the name field and checking whether the system is returning the proper error or not.\n\nThe \"contactId\" variable used in the request URL is extracted from previous \"Add Contact API\". This is the example of how request chaining works.",
-    "waitForseconds": null
+    "description": "Example of negative test case. As name field is required, and we are setting blank for the name field and checking whether the system is returning the proper error or not.\n\nThe \"contactId\" variable used in the request URL is extracted from previous \"Add Contact API\". This is the example of how request chaining works."
   },
   "validation": {
     "assertions": [

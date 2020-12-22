@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Checking the list of contacts to check whether the newly added record is deleted or not",
-    "description": "Validating whether the record which we just deleted is actually deleted in the database via validating the length of List.",
-    "waitForseconds": null
+    "description": "Validating whether the record which we just deleted is actually deleted in the database via validating the length of List."
   },
   "validation": {
     "assertions": [

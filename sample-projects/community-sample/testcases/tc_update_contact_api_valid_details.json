@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Validate whether Update Contact API by ID works properly with all valid details",
-    "description": "Example of Positive Test Case. Validating whether providing all the valid details to Update Contact API is working fine or not.",
-    "waitForseconds": null
+    "description": "Example of Positive Test Case. Validating whether providing all the valid details to Update Contact API is working fine or not."
   },
   "validation": {
     "assertions": [

@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Validate whether Update Contact API should return error when contact's country length is greater than the permissible country length limit",
-    "description": "Example of negative test case. As country field length cannot exceeds 35, and we are setting country having length greater than 35 and checking whether the system is returning the proper error or not.",
-    "waitForseconds": null
+    "description": "Example of negative test case. As country field length cannot exceeds 35, and we are setting country having length greater than 35 and checking whether the system is returning the proper error or not."
   },
   "validation": {
     "assertions": [

@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Validate whether View Contact API by ID is returning the correct details or not",
-    "description": "Example of Positive Test Case.\nValidating whether providing the correct contact Id to View Contact API is working fine or not.\n\nFor response validation, Default Validator is used. \n\nThere is one dynamic property \"_id\" which we have extracted from our Add Contact API and used in this API in the request URL.",
-    "waitForseconds": null
+    "description": "Example of Positive Test Case.\nValidating whether providing the correct contact Id to View Contact API is working fine or not.\n\nFor response validation, Default Validator is used. \n\nThere is one dynamic property \"_id\" which we have extracted from our Add Contact API and used in this API in the request URL."
   },
   "validation": {
     "assertions": [

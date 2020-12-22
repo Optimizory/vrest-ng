@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Validate whether Update contact API should return error when contact's organization length is greater than the permissible organization length limit",
-    "description": "Example of negative test case. As organization name field length cannot exceeds 35, and we are setting organization name having length greater than 35 and checking whether the system is returning the proper error or not.",
-    "waitForseconds": null
+    "description": "Example of negative test case. As organization name field length cannot exceeds 35, and we are setting organization name having length greater than 35 and checking whether the system is returning the proper error or not."
   },
   "validation": {
     "assertions": [

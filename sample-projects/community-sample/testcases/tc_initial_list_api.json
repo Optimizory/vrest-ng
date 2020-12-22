@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Validate whether List Contacts API is working fine or not",
-    "description": "This test case validates whether the List Contacts API is returning the valid records or not.",
-    "waitForseconds": null
+    "description": "This test case validates whether the List Contacts API is returning the valid records or not."
   },
   "validation": {
     "assertions": [

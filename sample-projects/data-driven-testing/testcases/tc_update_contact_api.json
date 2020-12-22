@@ -2,7 +2,6 @@
   "details": {
     "summary": "Validate Update Contact API",
     "loopSource": "{{data}}",
-    "waitForseconds": null,
     "tags": [
       "test-by-csv"
     ]

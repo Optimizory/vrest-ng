@@ -1,7 +1,6 @@
 {
   "details": {
     "summary": "Validate Create Contact API",
-    "waitForseconds": null,
     "tags": [
       "test-by-csv",
       "test-by-mock"

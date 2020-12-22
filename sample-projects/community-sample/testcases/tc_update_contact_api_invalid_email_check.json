@@ -1,8 +1,7 @@
 {
   "details": {
     "summary": "Validate whether Update Contact API should return error when setting invalid email for a contact",
-    "description": "Example of negative test case. As we are setting invalid email for email field, the API should return error in such case.",
-    "waitForseconds": null
+    "description": "Example of negative test case. As we are setting invalid email for email field, the API should return error in such case."
   },
   "validation": {
     "assertions": [
