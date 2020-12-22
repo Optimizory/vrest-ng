@@ -2,10 +2,7 @@
   "details": {
     "summary": "Checking the list of contacts to validate whether the new record is in the list or not",
     "description": "Validating whether new record which we just inserted is returning via the List Contact API.",
-    "waitForseconds": null,
-    "runnable": true,
-    "editable": true,
-    "tags": []
+    "waitForseconds": null
   },
   "validation": {
     "assertions": [
@@ -20,15 +17,7 @@
         "operator": "equalToNumber",
         "expectedValue": "5"
       }
-    ],
-    "expectedBody": {
-      "content": {},
-      "type": "json"
-    },
-    "expectedSchema": {
-      "content": {},
-      "type": "json"
-    }
+    ]
   },
   "request": {
     "url": "{{contactsAppBaseURLV2}}/contacts",
@@ -36,13 +25,6 @@
     "headers": {
       "Accept": "application/json, text/javascript, */*; q=0.01",
       "X-Requested-With": "XMLHttpRequest"
-    },
-    "queryParams": [],
-    "body": {
-      "content": "",
-      "type": "others",
-      "formParams": []
     }
-  },
-  "variables": []
+  }
 }

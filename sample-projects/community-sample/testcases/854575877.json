@@ -2,10 +2,7 @@
   "details": {
     "summary": "Validate whether Delete Contact API by ID is working fine or not",
     "description": "Example of positive test case. Validating whether the Delete Contact API is working fine. \n\nAs the API returns empty object, we cannot be sure that this API actually delete the record in the database. So, another test case of List Contact API has been created to ensure this.",
-    "waitForseconds": null,
-    "runnable": true,
-    "editable": true,
-    "tags": []
+    "waitForseconds": null
   },
   "validation": {
     "assertions": [
@@ -14,15 +11,7 @@
         "operator": "equalToNumber",
         "expectedValue": "200"
       }
-    ],
-    "expectedBody": {
-      "content": {},
-      "type": "json"
-    },
-    "expectedSchema": {
-      "content": {},
-      "type": "json"
-    }
+    ]
   },
   "request": {
     "url": "{{contactsAppBaseURLV2}}/contacts/{{contactId}}",
@@ -31,12 +20,9 @@
       "Accept": "application/json, text/javascript, */*; q=0.01",
       "X-Requested-With": "XMLHttpRequest"
     },
-    "queryParams": [],
     "body": {
       "content": "",
-      "type": "form-urlencoded",
-      "formParams": []
+      "type": "form-urlencoded"
     }
-  },
-  "variables": []
+  }
 }

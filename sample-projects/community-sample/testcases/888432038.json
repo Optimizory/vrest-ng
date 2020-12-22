@@ -2,13 +2,11 @@
   "details": {
     "summary": "Initialize Contacts DB",
     "description": "This test case is an example of Setup method of your test cases. We have implemented API \"/contacts/rePopulateDB\" to restore the database. This type of APIs should be open only for Test environment.\n\nEvery time, this API is executed, the database of sample contacts application is re-initialized.\n\nThe variable \"contactsAppBaseURLV2\" used in the URL of this test case is a global variable and can be defined by going to Configuration >> Environments / Variables.",
-    "waitForseconds": null,
-    "runnable": true,
-    "editable": true,
-    "tags": []
+    "waitForseconds": null
   },
   "validation": {
-    "assertions": [{
+    "assertions": [
+      {
         "source": "jsonBody",
         "operator": "equalToNumber",
         "expectedValue": "4",
@@ -19,26 +17,14 @@
         "operator": "equalToNumber",
         "expectedValue": "200"
       }
-    ],
-    "expectedBody": {
-      "content": {},
-      "type": "json"
-    },
-    "expectedSchema": {
-      "content": {},
-      "type": "json"
-    }
+    ]
   },
   "request": {
     "url": "{{contactsAppBaseURLV2}}/contacts/rePopulateDB",
     "method": "POST",
-    "headers": {},
-    "queryParams": [],
     "body": {
       "content": "",
-      "type": "form-urlencoded",
-      "formParams": []
+      "type": "form-urlencoded"
     }
-  },
-  "variables": []
+  }
 }

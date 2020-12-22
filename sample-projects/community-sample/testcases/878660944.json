@@ -2,10 +2,7 @@
   "details": {
     "summary": "Validate whether View Contact API by ID is returning the correct details or not",
     "description": "Example of Positive Test Case.\nValidating whether providing the correct contact Id to View Contact API is working fine or not.\n\nFor response validation, Default Validator is used. \n\nThere is one dynamic property \"_id\" which we have extracted from our Add Contact API and used in this API in the request URL.",
-    "waitForseconds": null,
-    "runnable": true,
-    "editable": true,
-    "tags": []
+    "waitForseconds": null
   },
   "validation": {
     "assertions": [
@@ -68,15 +65,7 @@
         "operator": "equals",
         "expectedValue": "[updated] My name can be used as a placeholder name and I don't have any real identity."
       }
-    ],
-    "expectedBody": {
-      "content": {},
-      "type": "json"
-    },
-    "expectedSchema": {
-      "content": {},
-      "type": "json"
-    }
+    ]
   },
   "request": {
     "url": "{{contactsAppBaseURLV2}}/contacts/{{contactId}}",
@@ -84,13 +73,6 @@
     "headers": {
       "Accept": "application/json, text/javascript, */*; q=0.01",
       "X-Requested-With": "XMLHttpRequest"
-    },
-    "queryParams": [],
-    "body": {
-      "content": "",
-      "type": "others",
-      "formParams": []
     }
-  },
-  "variables": []
+  }
 }

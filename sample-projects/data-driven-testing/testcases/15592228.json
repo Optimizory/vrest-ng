@@ -2,13 +2,10 @@
   "details": {
     "summary": "Validate Create Contact API",
     "waitForseconds": null,
-    "runnable": true,
-    "editable": true,
     "tags": [
       "test-by-csv",
       "test-by-mock"
-    ],
-    "description": ""
+    ]
   },
   "validation": {
     "assertions": [
@@ -40,17 +37,11 @@
         "createdOn": "{{*}}"
       },
       "type": "json"
-    },
-    "expectedSchema": {
-      "content": {},
-      "type": "json"
     }
   },
   "request": {
     "url": "{{contactsAppBaseURL}}/contacts",
     "method": "POST",
-    "headers": {},
-    "queryParams": [],
     "body": {
       "content": {
         "_id": null,
@@ -64,8 +55,7 @@
         "facebookId": "fake.john.doe",
         "githubId": "fake.john.doe"
       },
-      "type": "json",
-      "formParams": []
+      "type": "json"
     }
   },
   "variables": [

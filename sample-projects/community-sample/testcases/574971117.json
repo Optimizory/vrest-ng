@@ -2,10 +2,7 @@
   "details": {
     "summary": "Validate whether Update Contact API should return error when contact's name length is greater than the permissible name length limit",
     "description": "Example of negative test case. As name field is required, and we are setting blank for the name field and checking whether the system is returning the proper error or not.",
-    "waitForseconds": null,
-    "runnable": true,
-    "editable": true,
-    "tags": []
+    "waitForseconds": null
   },
   "validation": {
     "assertions": [
@@ -20,15 +17,7 @@
         "operator": "equals",
         "expectedValue": "field length cannot be greater than 35"
       }
-    ],
-    "expectedBody": {
-      "content": {},
-      "type": "json"
-    },
-    "expectedSchema": {
-      "content": {},
-      "type": "json"
-    }
+    ]
   },
   "request": {
     "url": "{{contactsAppBaseURLV2}}/contacts/{{contactId}}",
@@ -38,7 +27,6 @@
       "Content-Type": "application/json",
       "X-Requested-With": "XMLHttpRequest"
     },
-    "queryParams": [],
     "body": {
       "content": {
         "_id": "{{contactId}}",
@@ -53,9 +41,7 @@
         "githubId": "fake.john.doe",
         "createdOn": "2014-05-03T06:28:45.479Z"
       },
-      "type": "json",
-      "formParams": []
+      "type": "json"
     }
-  },
-  "variables": []
+  }
 }

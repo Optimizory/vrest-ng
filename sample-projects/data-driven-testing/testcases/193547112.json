@@ -3,8 +3,6 @@
     "summary": "Validate Update Contact API",
     "loopSource": "{{data}}",
     "waitForseconds": null,
-    "runnable": true,
-    "editable": true,
     "tags": [
       "test-by-csv"
     ]
@@ -48,7 +46,6 @@
       "header1": "value1",
       "header2": "value2"
     },
-    "queryParams": [],
     "body": {
       "content": "",
       "type": "form-urlencoded",
@@ -76,7 +73,6 @@
       ]
     }
   },
-  "variables": [],
   "extensions": {
     "vrest-excel-plugin": {
       "testDataFilePath": "{{$projectDir}}/data/sample.csv"
