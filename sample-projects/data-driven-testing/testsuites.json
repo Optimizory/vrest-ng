@@ -3,8 +3,8 @@
     "name": "Sample Test Suite",
     "description": "Test Suite to demonstrate data driven testing.",
     "testCaseIds": [
-      "15592228",
-      "193547112"
+      "tc_create_contact_api",
+      "tc_update_contact_api"
     ]
   }
 ]
