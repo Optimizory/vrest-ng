@@ -8,10 +8,10 @@ vREST NG has the following features and functionalities:
 
 - Swagger and OpenAPI 3 Import / Postman Import
 - Powerful Response Validation (Scriptless Assertions)
+- JSON Schema Validation
 - Database Validation
 - Test Environments
 - Authentication / Authorization Support
-- Scriptless Assertions
 - Chained Request Execution
 - Community Support
 - CI/CD Support
@@ -23,13 +23,16 @@ vREST NG has the following features and functionalities:
 - [Pro] Diff Report
 - [Pro] Easier Microservices Testing using Local Hooks ( [Learn More](https://ng.vrest.io/docs/app/hooks/types-of-hook.html) )
 - [Pro] Templates Functionality to improve reusability and reduce test maintenance effort. ( [Learn More](https://ng.vrest.io/docs/app/templates/) )
-- [Pro] Read Test Data from Excel Sheet
-- [Pro] Data Driven Testing 
-- [Pro] Test Setup using shell commands/scripts
-- [Pro] Response Processor
+- [Pro] API Specification Driven Testing ( [Learn More](https://ng.vrest.io/docs/app/specifications/) )
+- [Pro] Read Test Data from Excel Sheet ( [Learn More](https://ng.vrest.io/docs/app/reading-excel-sheet-data.html) )
+- [Pro] Data Driven Testing ( [Learn More](https://ng.vrest.io/docs/app/methodologies/data-driven-testing.html) ) 
+- [Pro] Test Setup using shell commands/scripts ( [Learn More](https://ng.vrest.io/docs/app/test-setup-via-executing-command.html) )
+- [Pro] Response Processor ( [Learn More](https://ng.vrest.io/docs/app/response-processor.html) )
+- [Pro] Request Polling Support for Asynchronous server operations ( [Learn More](https://ng.vrest.io/docs/app/polling/) )
 - [Pro] Priority Support
 - [Pro] Advanced Failure Debugging
-- [Pro] Bulk Operations and Search and replace operation to quickly update muliple records.
+- [Pro] [Bulk Operations](https://ng.vrest.io/docs/app/bulk-operations.html) and Search and replace operation to quickly update muliple records.
+
 - [Dashboard Service] Record Test case execution history vREST NG Servers
 - [Dashboard Service] vREST NG Dashboard Service, shows various analytics
 
