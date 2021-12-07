@@ -1,4 +1,4 @@
-# vREST NG Application v2.2.0
+# vREST NG Application v2.3.0
 
 This is a repository to maintain releases of vREST NG Application.
 
@@ -17,21 +17,22 @@ vREST NG has the following features and functionalities:
 - CI/CD Support
 - Command Line Test Execution
 - Filter test cases via tags, request method, execution status etc.
-- Record and replay your test cases ( [Learn More](https://ng.vrest.io/docs/app/tc-recording/) )
-- Use npm packages in your API Tests ( [Learn More](https://ng.vrest.io/docs/app/utility-methods.html#importing-npm-packages-in-utility-methods))
+- Record and replay your test cases ( [Learn More](https://vrest.io/docs/app/tc-recording/) )
+- Use npm packages in your API Tests ( [Learn More](https://vrest.io/docs/app/utility-methods.html#importing-npm-packages-in-utility-methods))
 - Advanced Response Validation
+- [Pro] API request validation to keep it in sync with API specifications. ( [Learn More](https://vrest.io/docs/app/methodologies/specification-driven-testing.html) )
 - [Pro] Diff Report
-- [Pro] Easier Microservices Testing using Local Hooks ( [Learn More](https://ng.vrest.io/docs/app/hooks/types-of-hook.html) )
-- [Pro] Templates Functionality to improve reusability and reduce test maintenance effort. ( [Learn More](https://ng.vrest.io/docs/app/templates/) )
-- [Pro] API Specification Driven Testing ( [Learn More](https://ng.vrest.io/docs/app/specifications/) )
-- [Pro] Read Test Data from Excel Sheet ( [Learn More](https://ng.vrest.io/docs/app/reading-excel-sheet-data.html) )
-- [Pro] Data Driven Testing ( [Learn More](https://ng.vrest.io/docs/app/methodologies/data-driven-testing.html) ) 
-- [Pro] Test Setup using shell commands/scripts ( [Learn More](https://ng.vrest.io/docs/app/test-setup-via-executing-command.html) )
-- [Pro] Response Processor ( [Learn More](https://ng.vrest.io/docs/app/response-processor.html) )
-- [Pro] Request Polling Support for Asynchronous server operations ( [Learn More](https://ng.vrest.io/docs/app/polling/) )
+- [Pro] Easier Microservices Testing using Local Hooks ( [Learn More](https://vrest.io/docs/app/hooks/types-of-hook.html) )
+- [Pro] Templates Functionality to improve reusability and reduce test maintenance effort. ( [Learn More](https://vrest.io/docs/app/templates/) )
+- [Pro] API Specification Driven Testing ( [Learn More](https://vrest.io/docs/app/methodologies/specification-driven-testing.html) )
+- [Pro] Read Test Data from Excel Sheet ( [Learn More](https://vrest.io/docs/app/reading-excel-sheet-data.html) )
+- [Pro] Data Driven Testing ( [Learn More](https://vrest.io/docs/app/methodologies/data-driven-testing.html) ) 
+- [Pro] Test Setup using shell commands/scripts ( [Learn More](https://vrest.io/docs/app/test-setup-via-executing-command.html) )
+- [Pro] Response Processor ( [Learn More](https://vrest.io/docs/app/response-processor.html) )
+- [Pro] Request Polling Support for Asynchronous server operations ( [Learn More](https://vrest.io/docs/app/polling/) )
 - [Pro] Priority Support
 - [Pro] Advanced Failure Debugging
-- [Pro] [Bulk Operations](https://ng.vrest.io/docs/app/bulk-operations.html) and Search and replace operation to quickly update muliple records.
+- [Pro] [Bulk Operations](https://vrest.io/docs/app/bulk-operations.html) and Search and replace operation to quickly update muliple records.
 
 - [Dashboard Service] Record Test case execution history vREST NG Servers
 - [Dashboard Service] vREST NG Dashboard Service, shows various analytics
@@ -46,7 +47,7 @@ In order to explore vREST NG, you can follow the steps mentioned below:
 
 ## Step 2 - Install vREST NG
 
-- For installation, please visit our document on [OS specific guide](https://ng.vrest.io/docs/app/installation.html).
+- For installation, please visit our document on [OS specific guide](https://vrest.io/docs/app/installation.html).
 
 ## Step 3 - Clone `examples-vrest-ng` repository & Open any of the sample projects in vREST NG Application
 
