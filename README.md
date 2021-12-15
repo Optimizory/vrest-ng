@@ -1,4 +1,4 @@
-# vREST NG Application v2.3.0
+# vREST NG Application v2.3.1
 
 This is a repository to maintain releases of vREST NG Application.
 
@@ -12,6 +12,12 @@ vREST NG has the following features and functionalities:
 - Database Validation
 - Test Environments
 - Authentication / Authorization Support
+  - OAuth 1.0
+  - OAuth 2.0
+  - NTLM Auth
+  - Digest Authentication
+  - Basic Authentication
+  - Custom authentication support via scripting.
 - Chained Request Execution
 - Community Support
 - CI/CD Support
