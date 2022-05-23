@@ -1,4 +1,4 @@
-# vREST NG Application v2.3.2
+# vREST NG Application v2.4.0
 
 This is a repository to maintain releases of vREST NG Application.
 
@@ -11,6 +11,8 @@ vREST NG has the following features and functionalities:
 - JSON Schema Validation
 - Database Validation
 - Test Environments
+- Multipart requests
+- Nested Test suites support
 - Authentication / Authorization Support
   - OAuth 1.0
   - OAuth 2.0
