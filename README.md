@@ -1,4 +1,4 @@
-# vREST NG Application v2.4.0
+# vREST NG Application v2.5.0
 
 This is a repository to maintain releases of vREST NG Application.
 
@@ -13,6 +13,7 @@ vREST NG has the following features and functionalities:
 - Test Environments
 - Multipart requests
 - Nested Test suites support
+- Test Suite level looping
 - Authentication / Authorization Support
   - OAuth 1.0
   - OAuth 2.0
