@@ -1,4 +1,4 @@
-# vREST NG Application v2.5.2
+# vREST NG Application v2.5.3
 
 This is a repository to maintain releases of vREST NG Application.
 
@@ -52,7 +52,7 @@ In order to explore vREST NG, you can follow the steps mentioned below:
 ## Step 1 - Download vREST NG
 
 - First of all, you need to have vREST Application installed on your system.
-- Download it from [HERE](https://github.com/Optimizory/vrest-ng/releases) (for your OS).
+- Download it from [HERE](https://vrest.io/download) (for your OS).
 
 ## Step 2 - Install vREST NG
 
